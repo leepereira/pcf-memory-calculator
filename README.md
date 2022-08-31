@@ -10,5 +10,5 @@ Pull the container from  dockerhub:
 
 Run the Docker container. Make sure that the mount for the container has the same file name as shown in the example below : /app/abc.csv
 
-`docker run -v filenamefromcf.csv:/app/abc.csv pct-convertor:v1`
+`docker run -v filenamefromcf.csv:/app/abc.csv pct-convertor:v10`
 
